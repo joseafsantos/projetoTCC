@@ -17,11 +17,14 @@
 .header .title-group{
     color: white;
     padding-left: 25px;
+    font-size: 1rem;
 }
 
 .header .title-group i {
     padding-right: 5px;
 }
+
+
 
 
 /* cor azul #2B4885 cor dourado #9E833C*/
