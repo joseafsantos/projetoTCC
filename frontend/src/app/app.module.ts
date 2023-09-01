@@ -14,7 +14,11 @@ import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component'
 import { MatCardModule } from '@angular/material/card';
-import { ClientCrudComponent } from './views/client-crud/client-crud.component'
+import { ClientCrudComponent } from './views/client-crud/client-crud.component';
+import { ClientCreateComponent } from './components/clients/client-create/client-create.component'
+import { MatButtonModule } from '@angular/material/button';
+
+
 
 
 @NgModule({
@@ -24,7 +28,9 @@ import { ClientCrudComponent } from './views/client-crud/client-crud.component'
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ClientCrudComponent
+    ClientCrudComponent,
+    ClientCreateComponent    
+
   ],
   imports: [
     BrowserModule,
@@ -33,7 +39,8 @@ import { ClientCrudComponent } from './views/client-crud/client-crud.component'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
