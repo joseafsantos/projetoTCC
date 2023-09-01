@@ -17,6 +17,7 @@ import { MatCardModule } from '@angular/material/card';
 import { ClientCrudComponent } from './views/client-crud/client-crud.component';
 import { ClientCreateComponent } from './components/clients/client-create/client-create.component'
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule} from '@angular/material/snack-bar'
 
 
 
@@ -40,7 +41,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
