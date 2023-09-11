@@ -1,12 +1,41 @@
+<mat-card>
+    <mat-card-title>
+        Novo Cliente
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Pedido" [(ngModel)]="client.pedido" name="pedido">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Data de Vencimento" [(ngModel)]="client.dataVcto" name="dataVcto">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Responsável" [(ngModel)]="client.responsavel" name="responsavel">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="E-mail" [(ngModel)]="client.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Contato" [(ngModel)]="client.contato" name="contato">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Produto" [(ngModel)]="client.produto" name="produto">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CPF" [(ngModel)]="client.cpf" name="cpa">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CNPJ" [(ngModel)]="client.cnpj" name="cnpj">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Razão Social" [(ngModel)]="client.razao" name="razao">
+        </mat-form-field>
+    </form>
+</mat-card>
+
 <button mat-raised-button (click)="createClient()" color="primary">
     Salvar
 </button>
 <button mat-raised-button (click)="cancel()">
 Voltar
 </button>
-
-<p>
-    <br>Teste os botões acima: <br>
-Salvar exibirá uma mensagem. <br>
-Voltar irá retornar a página anterior.
-</p>
