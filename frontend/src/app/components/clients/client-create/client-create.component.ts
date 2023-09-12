@@ -19,7 +19,8 @@ export class ClientCreateComponent implements OnInit {
     produto: '',
     cpf: 0,
     cnpj: 0,
-    razao: ''
+    razao: '',
+    id: 0
   }
 
   constructor(private clientService: ClientService,

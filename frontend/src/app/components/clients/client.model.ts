@@ -8,4 +8,5 @@ export interface Client{
     cpf: number
     cnpj?: number
     razao?: string
+    id?: number
     }
